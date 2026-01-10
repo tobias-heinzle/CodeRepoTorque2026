@@ -5,7 +5,7 @@ from jax import Array, vmap
 from jax.random import key, split, normal, choice
 import jax.numpy as jnp
 
-
+# Simple implementation of an evolution strategy to fit the failure time distribution
   
 def fit_absorption_times(
         n_params: int, 
