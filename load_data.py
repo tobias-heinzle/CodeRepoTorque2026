@@ -8,9 +8,8 @@ from sklearn.metrics import r2_score
 from tqdm import tqdm
 
 def load_bearing_fault_samples(wind_farm: str = 'B', anomaly_string: str = 'bearing') -> list[pd.DataFrame]:
-    data_version = 6
-    base_dir = Path(f"../datasets/SCADA/care2compare")
-    data_dir = base_dir / f"version_{data_version}/Wind Farm {wind_farm}"
+    base_dir = Path(f"dataset/")
+    data_dir = base_dir / f"Wind Farm {wind_farm}"
     event_info = pd.read_csv(data_dir / "event_info.csv", sep=";")
 
     samples = []
