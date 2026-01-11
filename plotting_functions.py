@@ -1,7 +1,5 @@
 from typing import Optional, Callable
-import warnings
 
-from matplotlib.collections import LineCollection
 import numpy as np
 
 from scipy.stats import Normal
