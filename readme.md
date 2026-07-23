@@ -1,7 +1,7 @@
 # Learning Degradation Dynamics from Incomplete Trajectories and Failure Statistics
 ## Code repository for the Torque 2026 Conference paper
 
-This repository contains the code to reproduce all results reported in the 2026 Torque Conference report.
+This repository contains the code to reproduce all results reported in the [2026 Torque Conference report](https://iopscience.iop.org/article/10.1088/1742-6596/3224/6/062043).
 It includes scripts for data loading and optimization, as well as notebooks for running experiments and generating figures.
 The code is intended primarily for reproducibility and inspection rather than as a standalone library.
 
